@@ -1,0 +1,313 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -moz-animation: fadein 4s;
+  -webkit-animation: fadein 4s;
+  -o-animation: fadein 4s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+  background-color: #ffc017;
+  border-bottom: 1px solid black;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#logo {
+  flex: 1 0 50%;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  flex: 1 0 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li {
+  font-size: 2.2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 0 10%;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.bottone {
+  color: white;
+  background-color: #191919;
+  border-radius: 20px;
+  width: 90%;
+  padding: 10px;
+  font-size: 2vh;
+}
+
+.herosection {
+  display: flex;
+  height: 80vh;
+  background-color: #ffc017;
+  border-bottom: 1px solid #191919;
+}
+
+.titolocontainer {
+  flex: 1 0 50%;
+  display: flex;
+  align-items: center;
+  font-family: "Spectral", serif;
+}
+
+.svgcontainer {
+  flex: 1 0 50%;
+  position: relative;
+}
+
+.sezionesinistra {
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+  height: 60vh;
+  padding-left: 20%;
+}
+
+.sezionesinistra h1 {
+  font-size: 13vh;
+  font-weight: 400;
+}
+
+.sezionesinistra h2 {
+  font-size: 4vh;
+  font-weight: 400;
+  width: 80%;
+}
+
+.bottone2 {
+  color: white;
+  background-color: #191919;
+  border-radius: 20px;
+  width: 30%;
+  padding: 10px;
+  font-size: 2vh;
+  margin-top: 50px;
+}
+
+.mainsection {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 5%;
+  font-family: "Roboto", sans-serif;
+}
+
+.trendingmenu {
+  display: flex;
+  height: 5vh;
+}
+
+.trendingmenu p {
+  font-weight: 700;
+  align-content: center;
+  padding-left: 1%;
+}
+
+.cardmenu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6vh 2vh;
+  padding-top: 2%;
+  border-bottom: 1px solid grey;
+}
+.card {
+  display: flex;
+  flex: 1 0 30%;
+}
+
+.articolocard {
+  flex-grow: 1;
+}
+
+.articoloimg {
+  display: flex;
+  padding-top: 10px;
+}
+
+.numerocard p {
+  font-weight: 900;
+  color: grey;
+  font-size: 5vh;
+  opacity: 0.2;
+  padding-right: 30px;
+}
+
+.articoloimg img {
+  border-radius: 60%;
+  width: 10%;
+  object-fit: contain;
+  align-items: flex-start;
+}
+
+.articoloimg p {
+  font-weight: 600;
+  font-size: 2vh;
+  padding-left: 2vh;
+  align-content: center;
+}
+
+.articolotesto {
+  align-content: center;
+  padding: 2%;
+}
+
+.articolotesto p:first-child {
+  font-weight: 600;
+  font-size: 2.5vh;
+  padding-bottom: 3%;
+}
+.articolotesto p:last-child {
+  font-size: 1.7vh;
+  color: gray;
+  font-weight: 400;
+}
+
+.sezionepost {
+  display: flex;
+}
+
+.sezionesx {
+  flex-direction: column;
+  display: flex;
+  flex: 1 0 60%;
+}
+
+.sezionedx {
+  display: flex;
+  flex: 1 0 40%;
+  font-family: "Roboto", sans-serif;
+}
+
+.carddx {
+  display: flex;
+  flex-direction: column;
+  padding: 5vh;
+  width: 100%;
+}
+
+.titolodx p {
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.bottonidx {
+  display: flex;
+  padding: 5vh 0;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 2vh;
+  border-bottom: 1px solid rgba(201, 194, 194, 0.452);
+}
+
+.bottonidx button {
+  padding: 2%;
+  background-color: white;
+  color: rgba(78, 75, 75, 0.452);
+  border: 1px solid grey;
+  border-radius: 7%;
+  font-weight: 550;
+}
+
+.postsx {
+  flex: 1 0 60%;
+}
+
+.postdx {
+  flex: 1 0 40%;
+}
+
+.postdx img {
+  width: 100%;
+}
+
+.cardpost {
+  display: flex;
+  width: 100%;
+  padding: 5vh;
+}
+
+.menudx {
+  display: flex;
+  padding: 5vh 0;
+  flex-wrap: wrap;
+  align-items: stretch;
+  gap: 3vh;
+}
+
+.menudx a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 300;
+}
