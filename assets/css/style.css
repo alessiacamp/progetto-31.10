@@ -180,7 +180,7 @@ nav ul a {
   flex-wrap: wrap;
   gap: 6vh 2vh;
   padding-top: 2%;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.249);
 }
 .card {
   display: flex;
@@ -222,16 +222,55 @@ nav ul a {
   align-content: center;
   padding: 2%;
 }
+.bookmark p {
+  font-size: 1.7vh !important;
+  color: gray !important;
+  font-weight: 400 !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.bookmark {
+  display: flex;
+  padding-top: 10px;
+}
+
+.bookmark img {
+  margin-left: auto;
+}
 
 .articolotesto p:first-child {
   font-weight: 600;
   font-size: 2.5vh;
   padding-bottom: 3%;
 }
+
+.articolotesto p:nth-of-type(2) {
+  font-size: 2vh;
+  color: gray;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
 .articolotesto p:last-child {
   font-size: 1.7vh;
   color: gray;
   font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.postsx .articolotesto p:last-child {
+  display: inline-block;
+}
+
+.postsx .articolotesto img {
+  display: inline-block;
+}
+
+.articolotesto p img {
+  padding-left: 5px;
 }
 
 .sezionepost {
@@ -242,6 +281,15 @@ nav ul a {
   flex-direction: column;
   display: flex;
   flex: 1 0 60%;
+}
+
+.articolotesto button {
+  color: #707378;
+  border-radius: 20px;
+  padding: 5px;
+  font-size: 2vh;
+
+  border-color: transparent;
 }
 
 .sezionedx {
@@ -274,7 +322,7 @@ nav ul a {
 .bottonidx button {
   padding: 2%;
   background-color: white;
-  color: rgba(78, 75, 75, 0.452);
+  color: #756d6b;
   border: 1px solid grey;
   border-radius: 7%;
   font-weight: 550;
